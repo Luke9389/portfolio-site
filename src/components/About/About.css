@@ -1,0 +1,5 @@
+.About {
+  grid-area: 'About';
+  background: lightcoral;
+  color: white;
+}

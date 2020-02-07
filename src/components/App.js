@@ -1,6 +1,11 @@
 import React from 'react';
+import Portfolio from '../containers/Portfolio';
+import '../reset.css';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Portfolio />    
+    </>
+  );
 }
-  
