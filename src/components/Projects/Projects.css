@@ -1,0 +1,29 @@
+.Projects {
+  grid-area: 'Projects';
+  background: lightslategray;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+
+  h2{
+    font-size: 70px;
+  }
+}
+
+.Name{
+  font-size: 100px;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+
+  li{
+    display: flex;
+    img{
+      width: 200px;
+    }
+  }
+}

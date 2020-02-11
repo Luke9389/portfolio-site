@@ -2,4 +2,7 @@
   grid-area: 'About';
   background: lightcoral;
   color: white;
+  
+  display: flex;
+  flex-direction: column;
 }
