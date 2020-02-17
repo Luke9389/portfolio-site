@@ -1,29 +1,86 @@
-.Projects {
-  grid-area: 'Projects';
-  background: lightslategray;
+.Projects{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 10rem;
+  /*border: solid blue 1px;*/
+  background: rgb(20, 20, 20);
   color: white;
-  
-  display: flex;
-  flex-direction: column;
+  margin-top: -8rem;
 
-  h2{
-    font-size: 70px;
-  }
-}
-
-.Name{
-  font-size: 100px;
-
-}
-
-ul{
-  display: flex;
-  flex-direction: column;
-
-  li{
-    display: flex;
-    img{
-      width: 200px;
+  .ProjectsWrapper{
+    /*border: red solid 1px;*/
+    display: block;
+    height: 90rem;
+    margin: auto;
+    position: relative;
+    h1{
+      font-size: 3rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
     }
+
   }
 }
+
+.ProjectList{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ProjectItem{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    background: rgb(108, 108, 108);
+    margin: 1rem;
+    width: 25rem;
+    div{
+      padding-top:5%;
+    }
+    h2{
+      font-size: 2rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+      margin-left:5%;
+    }
+    p{
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+      margin-top: 0.5rem;
+      margin-left: 10%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+    }
+}
+
+.ProjectItem:hover{
+  border: white solid 1px;
+  div{
+    background: white;
+    color: black;
+  }
+}
+
+.ProjectImage{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.Resources{
+  display: flex;
+  justify-content: space-between;
+  border: green solid 1px;
+  a{
+    border: blue solid 1px;
+    img{
+      height: 2rem;
+    }
+
+  }
+  
+}
+

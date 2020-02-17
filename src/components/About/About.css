@@ -1,8 +1,28 @@
 .About {
-  grid-area: 'About';
-  background: lightcoral;
-  color: white;
+  height: 10rem;
+  margin-top: -40vh;
+  padding: 8rem;
   
   display: flex;
   flex-direction: column;
+  background: lightcoral;
+
+  .AboutMeWrapper{
+      display: block;
+      width: 40vw;
+      margin-left: auto;
+
+    h1{
+      font-size: 3rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: right;
+    }
+  
+    p{
+      text-align: right;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
 }

@@ -1,0 +1,33 @@
+.Tools {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+  margin-top: -1rem;
+
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 98%, 0 70%);
+  background: lightcoral;
+
+  .ToolsWrapper{
+    display: block;
+    margin-left: 2rem;
+
+    h1{
+      font-size: 3rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: left;
+    }
+  }
+}
+
+.ToolList{
+  display: flex;
+  
+  .ToolLogo{
+    margin: 1rem;
+    width: 3rem;
+    
+    .ToolLogoImg{
+      width: 100%;
+    }
+  }
+}
