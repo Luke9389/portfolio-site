@@ -5,6 +5,8 @@ import goodManors from '../../assets/good-manors-screen.png';
 import mazeApi from '../../assets/maze-api-screen.png';
 import chroma from '../../assets/chroma-screen.png';
 import gitHub from '../../assets/github-logo.png';
+import squiggle from '../../assets/squiggle.png';
+
 
 const Projects = () => {
   // const [index, setIndex] = useState(0);

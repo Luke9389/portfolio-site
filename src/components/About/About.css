@@ -5,7 +5,7 @@
   
   display: flex;
   flex-direction: column;
-  background: lightcoral;
+  background:  rgb(255,120,124);
 
   .AboutMeWrapper{
       display: block;
