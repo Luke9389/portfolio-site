@@ -1,0 +1,28 @@
+.About {
+  height: 25rem;
+  margin-top: -40vh;
+  padding: 8rem;
+  
+  display: flex;
+  flex-direction: column;
+  background:  rgb(255,120,124);
+
+  .AboutMeWrapper{
+      display: block;
+      width: 40vw;
+      margin-left: auto;
+
+    h1{
+      font-size: 3rem;
+      font-family: 'Poppins', sans-serif;
+      text-align: right;
+    }
+  
+    p{
+      text-align: right;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+}
