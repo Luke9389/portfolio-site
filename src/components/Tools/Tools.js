@@ -13,7 +13,6 @@ import jestLogo from '../../assets/jest-logo.png';
 import netlifyLogo from '../../assets/netlify-logo.png';
 import herokuLogo from '../../assets/heroku-logo.png';
 import p5Logo from '../../assets/p5-logo.png';
-import squiggle from '../../assets/squiggle.png';
 
 
 const About = () => {
@@ -21,7 +20,6 @@ const About = () => {
     <section className={styles.Tools}>
       <div className={styles.ToolsWrapper}>
         <h1>Tools</h1>
-        <img src={squiggle} />
         <ul className={styles.ToolList}>
           <li className={styles.ToolLogo}>
             <img src={jsLogo} className={styles.ToolLogoImg} />
@@ -30,13 +28,16 @@ const About = () => {
             <img src={htmlLogo} className={styles.ToolLogoImg} />
           </li>
           <li className={styles.ToolLogo}>
+            <img src={cssLogo} className={styles.ToolLogoImg} />
+          </li>
+          <li className={styles.ToolLogo}>
             <img src={reactLogo} className={styles.ToolLogoImg} />
           </li>
           <li className={styles.ToolLogo}>
             <img src={reduxLogo} className={styles.ToolLogoImg} />
           </li>
           <li className={styles.ToolLogo}>
-            <img src={nodeLogo} className={styles.ToolLogoImg} />
+            <img src={nodeLogo} className={`${styles.ToolLogoImg} ${styles.long}`} />
           </li>
           <li className={styles.ToolLogo}>
             <img src={expressLogo} className={styles.ToolLogoImg} />
@@ -45,7 +46,7 @@ const About = () => {
             <img src={mongodbLogo} className={styles.ToolLogoImg} />
           </li>
           <li className={styles.ToolLogo}>
-            <img src={mongooseLogo} className={styles.ToolLogoImg} />
+            <img src={mongooseLogo} className={`${styles.ToolLogoImg} ${styles.long}`} />
           </li>
           <li className={styles.ToolLogo}>
             <img src={jestLogo} className={styles.ToolLogoImg} />

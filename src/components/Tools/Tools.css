@@ -5,7 +5,7 @@
   margin-top: -1rem;
 
   clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 98%, 0 70%);
-  background: rgb(255,120,124);
+  background:  rgb(255,120,124);
 
   .ToolsWrapper{
     display: block;
@@ -21,13 +21,17 @@
 
 .ToolList{
   display: flex;
-  
+  align-items:center;
   .ToolLogo{
     margin: 1rem;
-    width: 3rem;
     
     .ToolLogoImg{
-      width: 100%;
+      min-height: 2.5rem;
+      max-height: 3rem;
+    }
+    .long{
+      min-width: 4.5rem;
+      max-height: 4rem;
     }
   }
 }

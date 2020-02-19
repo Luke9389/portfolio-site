@@ -1,22 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
 .Projects{
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 10rem;
   /*border: solid blue 1px;*/
-  background: rgb(20, 20, 20);
+  background: rgb(19, 19, 20);
   color: white;
   margin-top: -8rem;
 
   .ProjectsWrapper{
     /*border: red solid 1px;*/
     display: block;
-    height: 90rem;
+    padding-top: 2rem;
     margin: auto;
     position: relative;
     h1{
       font-size: 3rem;
       font-family: 'Poppins', sans-serif;
       text-align: center;
+      margin-bottom: 2rem;
     }
 
   }
@@ -31,52 +36,52 @@
 
 .ProjectItem{
     display: grid;
-    grid-template-rows: 60% 40%;
-    background: rgb(108, 108, 108);
+    grid-template-rows: 20rem  2.5rem auto 3.5rem;
+    background: rgb(19, 19, 20);
     margin: 1rem;
     width: 25rem;
-    div{
-      padding-top:5%;
+    .ImgWrapper{
+       overflow: hidden;
+      .ProjectImage{
+        min-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+      }
     }
+
     h2{
       font-size: 2rem;
       font-family: 'Poppins', sans-serif;
       text-align: left;
-      margin-left:5%;
+      margin-top: 0.8rem;
+      margin-left:1rem;
     }
     p{
       font-size: 1rem;
       font-family: 'Poppins', sans-serif;
       text-align: left;
-      margin-top: 0.5rem;
-      margin-left: 10%;
-      margin-right: 5%;
-      margin-bottom: 5%;
+      margin-top: 0.8rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 }
 
 .ProjectItem:hover{
-  border: white solid 1px;
-  div{
-    background: white;
-    color: black;
-  }
+  background:  rgb(255,120,124);
+    color: white;
+    
 }
 
-.ProjectImage{
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
-}
 
 .Resources{
   display: flex;
-  justify-content: space-between;
-  border: green solid 1px;
+  margin-left: 2rem;
   a{
-    border: blue solid 1px;
-    img{
+    margin-top: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 1rem;
+    img {
       height: 2rem;
     }
 
