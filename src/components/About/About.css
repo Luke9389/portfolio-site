@@ -1,5 +1,4 @@
 .About {
-  height: 25rem;
   margin-top: -40vh;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -25,6 +24,14 @@
       font-size: 1.5rem;
       margin-top: 2rem;
       font-family: 'Poppins', sans-serif;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .About{
+    .AboutMeWrapper {
+      width: 80vw;
     }
   }
 }

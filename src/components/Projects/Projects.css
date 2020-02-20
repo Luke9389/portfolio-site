@@ -29,17 +29,17 @@
 
 .ProjectList{
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
 
 .ProjectItem{
+    width: 400px;
     display: grid;
     grid-template-rows: 20rem  2.5rem auto 3.5rem;
     background: rgb(19, 19, 20);
     margin: 1rem;
-    width: 25rem;
     .ImgWrapper{
        overflow: hidden;
       .ProjectImage{
