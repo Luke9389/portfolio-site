@@ -38,6 +38,7 @@ const Projects = () => {
             </div>
             <h2>Good Manors</h2>
             <p>Keep all of the relevant info about your home in one place with Good Manors. Create one or more digital homes with different drawers to keep track of it all.</p>
+
             <div className={styles.Resources}>
               <a href="https://github.com/Good-Manors" target="_blank">
                 <img src={gitHub} />
@@ -69,7 +70,7 @@ const Projects = () => {
               <img src={chroma} className={styles.ProjectImage} />
             </div>
             <h2>Chroma Game</h2>
-            <p>Bored? We have the perfect game for you, stimulate your color curiosity with Chroma! The game will give you a scrambled set of colors from a gradient, and the user will need to align them in order.</p>
+            <p>Chroma is a relaxing in-browser game. Unscramble colors to make beautiful gradients, and add to your personal collection.</p>
             <div className={styles.Resources}>
               <a href="https://github.com/Chroma-Squad/chroma-game" target="_blank">
                 <img src={gitHub} />
