@@ -3,7 +3,7 @@
   z-index: 1;
   height: 110vh;
   clip-path: polygon(0 0, 100vw 0, 100vw 70vh, 0 90vh );
-
+  width: 100vw;
   img {
     object-fit: cover;
     object-position: left;
